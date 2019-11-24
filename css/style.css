@@ -596,7 +596,7 @@ body:after {
     right: 10%;
     bottom: 0;
     z-index: 1;
-    max-width: 650px; }
+    max-width: 600px; }
     @media (max-width: 991.98px) {
       .site-blocks-cover .img-face {
         right: -25%; } }
