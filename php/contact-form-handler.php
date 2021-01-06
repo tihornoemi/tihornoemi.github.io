@@ -5,7 +5,7 @@ if($_POST["submit"]) {
     $sender=$_POST["name"];
     $senderEmail=$_POST["email"];
     $message=$_POST["message"];
-    $mailBody="Name: $sender\nEmail Address: $senderEmail\n\nMessage: $message";
+    $mailBody="Név: $sender\nEmail E-mail:: $senderEmail\n\nÜzenet: $message";
     mail($recipient, $subject, $mailBody);
     sleep(1);
     header("https://tihornoemi.github.io/tihornoemi-portfolio.github.io/"); // Set here redirect page or destination page
