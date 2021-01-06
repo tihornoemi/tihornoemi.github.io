@@ -15,8 +15,8 @@
     <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
 
     <link rel="stylesheet" href="css/style.css">
-    
-  </head>
+    <?php include 'contact-form-handler.php';
+?>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
   
 
@@ -304,9 +304,9 @@ A tartóegység emellett környezetbarát is, mivel 100%-ban újrahasznosíthat�
             <div>
           <p>
             <br>
-        <a href="documents/5_Fabula_I_Dokumentáció.pdf" download>Forma- és színtan</a>
+        <a href="documents/Forma-_es_szintan_dokumentacio_Tihor_Noemi.pdf" download>Forma- és színtan</a>
         <br>
-        <a href="documents/Tihor_Noémi_I_Dokumentáció_kiegészítés.pdf" download>Formatervezés I.</a>
+        <a href="documents/Formatervezes_I_dokumentacio_Tihor_Noemi.pdf" download>Formatervezés I.</a>
         <br>
             </div>
               </div>
@@ -358,12 +358,6 @@ A tartóegység emellett környezetbarát is, mivel 100%-ban újrahasznosíthat�
             <a href="images/Jatekbolt.png" class="item-wrap fancybox">
               <span class="icon-search2"></span>
               <img class="img-fluid" src="images/Jatekbolt.png">
-            </a>
-          </div>
-          <div class="item brand col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="images/Teadelutan.png" class="item-wrap fancybox">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/Teadelutan.png">
             </a>
           </div>
 
@@ -517,7 +511,7 @@ A tartóegység emellett környezetbarát is, mivel 100%-ban újrahasznosíthat�
             <h2 class="section-title text-center mb-5">Kapcsolat</h2>
           </div>
         </div>
-        <form action="mailto:tihornoemi99@gmail.com" method="POST" enctype="multipart/form-data" class="form">
+        <form method="post" action="contact-form-handler.php" class="form">
           <div class="row mb-4">
             <div class="form-group col-6">
               <input type="text" class="form-control" placeholder="Név">
