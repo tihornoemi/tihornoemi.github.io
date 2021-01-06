@@ -508,7 +508,7 @@ A tartóegység emellett környezetbarát is, mivel 100%-ban újrahasznosíthat�
             <h2 class="section-title text-center mb-5">Kapcsolat</h2>
           </div>
         </div>
-        <form method="post" name="contact_form"
+        <form method="post" name="contact_form" class="form"
 action="<?php
 if($_POST["submit"]) {
     $recipient="tihornoemi99@gmail.com"; //Enter your mail address
@@ -521,7 +521,7 @@ if($_POST["submit"]) {
     sleep(1);
     header("https://tihornoemi.github.io/tihornoemi-portfolio.github.io/"); // Set here redirect page or destination page
 }
-?>" class="form">
+?>">
           <div class="row mb-4">
             <div class="form-group col-6">
     <input type="text" name="name" class="form-control" placeholder="Név">
